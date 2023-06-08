@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-auto-dark-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Switches the bootstrap >= 5.3 dark-mode automatically based on system settings.",
   "main": "index.js",
   "scripts": {
