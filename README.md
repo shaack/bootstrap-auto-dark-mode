@@ -1,12 +1,19 @@
 # bootstrap-auto-dark-mode
 
-Include this script to set the bootstrap >= 5.3 dark-mode automatically based on system settings.
+This script adds the missing auto-dark mode to the new theme feature of Bootstrap 5.3.
 
-The mode will switch automatically, also when the user changes the system settings while the page is shown.
+It switches the Bootstrap theme automatically between light and dark mode, depending on the system settings, if you set the `data-bs-theme` attribute of your &lt;html> to `auto`.
 
 ## Usage
 
-```html
-<script src="./src/bootstrap-auto-dark-mode.js"></script>
-```
+Use it by just including `bootstrap-auto-dark-mode.js` in your header and setting `data-bs-theme` to `auto`.
 
+```html
+    <html data-bs-theme="auto">
+        <head>
+            <!-- you code -->
+            <script src="./src/bootstrap-auto-dark-mode.js"></script>
+        </head>
+        <!-- your code -->
+        …
+```
