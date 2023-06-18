@@ -9,7 +9,7 @@ It switches the Bootstrap theme automatically between light and dark mode, depen
 Use it by just including `bootstrap-auto-dark-mode.js` in your header and setting `data-bs-theme` to `auto`.
 
 ```html
-    <html data-bs-theme="auto">
+    <html lang="en" data-bs-theme="auto">
         <head>
             <!-- you code -->
             <script src="./src/bootstrap-auto-dark-mode.js"></script>
