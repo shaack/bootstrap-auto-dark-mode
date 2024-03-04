@@ -11,9 +11,9 @@ Use it by just including `bootstrap-auto-dark-mode.js` in your header and settin
 ```html
     <html lang="en" data-bs-theme="auto">
         <head>
-            <!-- you code -->
+            <!-- your code -->
             <script src="./src/bootstrap-auto-dark-mode.js"></script>
         </head>
         <!-- your code -->
-        …
+        <!-- […] -->
 ```
